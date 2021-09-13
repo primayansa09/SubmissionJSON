@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SubmissionGithub2</string>
+    <string name="hint">User</string>
+    <string name="followers">Follower</string>
+    <string name="following">Following</string>
+    <string name="image">Image</string>
+    <string name="repository">Repository</string>
+    <string name="detail_user">Detail User</string>
+    <string name="username">wanda09</string>
+    <string name="nama_user">Wanda Primayansa</string>
+    <string name="tv_location">Jakarta</string>
+    <string name="tv_company">Dicoding</string>
+</resources>
