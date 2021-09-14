@@ -23,14 +23,12 @@ public class FollowersFragment extends Fragment {
     private static final String ARG_FOLLOWERS = "followers";
     public static final String TAG = FollowersFragment.class.getSimpleName();
 
-    // TODO: Rename and change types of parameters
     private String mFollowers;
 
     public FollowersFragment() {
-        // Required empty public constructor
+
     }
 
-    // TODO: Rename and change types and number of parameters
     public static FollowersFragment newInstance(String followers) {
         FollowersFragment fragment = new FollowersFragment();
         Bundle bundle = new Bundle();
@@ -42,7 +40,6 @@ public class FollowersFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_followers, container, false);
     }
 
