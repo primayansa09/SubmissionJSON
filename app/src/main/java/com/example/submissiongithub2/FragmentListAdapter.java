@@ -1,7 +1,6 @@
 package com.example.submissiongithub2;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,12 +41,11 @@ public class FragmentListAdapter extends RecyclerView.Adapter<FragmentListAdapte
             public void onClick(View view) {
 
                 Intent intent = new Intent(holder.itemView.getContext(), ActivityDetail.class);
-                intent.putExtra(ActivityDetail.EXTRA_USER, (Parcelable) listFragment.get(i) );
+                intent.putExtra(ActivityDetail.EXTRA_USER, listFragment.get(i) );
                 holder.itemView.getContext().startActivity(intent);
 
             }
         });
-
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.example.submissiongithub2;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +43,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
             public void onClick(View view) {
 
                 Intent intent = new Intent(holder.itemView.getContext(), ActivityDetail.class);
-                intent.putExtra(ActivityDetail.EXTRA_USER, (Parcelable) listUser.get(i));
+                intent.putExtra(ActivityDetail.EXTRA_USER, listUser.get(i));
                 holder.itemView.getContext().startActivity(intent);
             }
         });
